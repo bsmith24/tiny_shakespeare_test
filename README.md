@@ -6,8 +6,8 @@ Training an RWKV-inspired "Student" model vs GPT on character-level Shakespeare 
 
 | Model | Parameters | Final Val Loss | Time/Iter |
 |-------|-----------|----------------|-----------|
-| Student (RWKV-style) | 0.83M | 1.56 | ~155ms |
-| GPT | 10.65M | 1.52 | ~525ms |
+| Student (RWKV-style) | 0.83M | 1.38 | ~155ms |
+| GPT | 10.65M | 1.32 | ~525ms |
 
 The Student model is **13x smaller** and **3x faster** per iteration, with only slightly higher loss.
 
